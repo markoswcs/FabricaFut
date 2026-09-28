@@ -1,0 +1,31 @@
+/* Ajustes de produção: imagem de produtos e tipografia de contingência. */
+.hero-arte {
+  background-color: var(--sand);
+  background-image: linear-gradient(90deg, rgba(16, 44, 39, .06), transparent 45%), url("assets/hero-vendas.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-arte > * { display: none; }
+
+.faixa-manifesto span {
+  width: 5px;
+  height: 5px;
+  flex: 0 0 5px;
+  border-radius: 50%;
+  background: var(--lime);
+}
+
+/* Mantém a leitura consistente mesmo enquanto as fontes externas carregam. */
+body { font-family: Manrope, Arial, Helvetica, sans-serif; }
+
+.atendimento small.aviso-resultados {
+  max-width: 430px;
+  margin-top: 1.35rem;
+  color: var(--lime);
+  opacity: .95;
+}
+
+@media (max-width: 760px) {
+  .hero-arte { min-height: 440px; background-position: 52% center; }
+}

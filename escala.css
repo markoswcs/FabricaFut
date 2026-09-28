@@ -1,0 +1,23 @@
+@media (min-width: 851px) {
+  .app-hero {
+    min-height: calc(100vh - 86px);
+    padding-top: clamp(5rem, 9vw, 10rem);
+    padding-bottom: clamp(5rem, 9vw, 10rem);
+  }
+
+  .app-hero-copy { max-width: 760px; }
+
+  .app-hero h1 { font-size: clamp(4.2rem, 7.8vw, 8.3rem); }
+
+  .app-intro { max-width: 610px; font-size: clamp(1rem, 1.35vw, 1.16rem); }
+
+  .app-stage { min-height: 700px; }
+
+  .phone-wrap { width: min(365px, 76%); height: 690px; top: 1%; }
+
+  .grid-plane { width: 560px; height: 400px; }
+
+  .store-button { min-width: 205px; padding: .9rem 1.15rem; }
+
+  .app-strip { min-height: 106px; }
+}
