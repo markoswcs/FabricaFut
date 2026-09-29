@@ -1,0 +1,27 @@
+/* Acabamento visual da Fábrica Fut: contraste, hierarquia e movimento sutil. */
+.app-site { background: #061e15; }
+.app-hero { min-height: 740px; background: radial-gradient(circle at 84% 18%, #17734235, transparent 31%), #061e15; }
+.app-hero::before { opacity: .22; }
+.app-hero-copy { max-width: 710px; }
+.app-eyebrow { color: #bee8c9; }
+.app-hero h1 { color: #f3ffec; }
+.app-hero h1 em { color: #d7f36b; }
+.app-intro { color: #c0d9c7; max-width: 560px; font-size: 1.03rem; }
+.store-button { border-color: #c6ead077; background: #0b3526; }
+.store-button:hover { background: #efffe9; color: #082a1d; border-color: #efffe9; }
+.store-button.play { background: #1c6c43; border-color: #45e783; }
+.store-button.play:hover { background: #d7f36b; color: #082a1d; border-color: #d7f36b; }
+.app-stage { min-height: 660px; }
+.app-stage::before { content: ""; position: absolute; width: 390px; aspect-ratio: 1; left: 50%; top: 50%; transform: translate(-50%, -50%); border: 2px solid rgba(213, 243, 107, .3); border-radius: 50%; box-shadow: 0 0 0 42px rgba(43, 231, 120, .06); pointer-events: none; }
+.app-stage .catalog-dashboard { width: 340px; min-height: 520px; top: 4%; }
+.app-strip { background: #0b3928; color: #e6f7e9; border-color: #a8ffbf30; }
+.app-features { background: #eff5e9; }
+.app-features h2 { color: #113526; }
+.feature-list { border-color: #11352624; }
+.feature-list article { border-color: #11352624; }
+.feature-list article > b { color: #16884c; }
+.feature-list p { color: #526b5b; }
+.app-final { min-height: 590px; }
+.apple-logo { width: 23px; height: 25px; display: block; flex: 0 0 23px; }
+@media (max-width: 850px) { .app-hero { min-height: auto; } .app-stage { min-height: 570px; } }
+@media (max-width: 560px) { .app-stage .catalog-dashboard { width: 280px; min-height: 455px; } .app-intro { font-size: .94rem; } }

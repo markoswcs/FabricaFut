@@ -1,0 +1,10 @@
+/* Geometria inspirada em quadra/campo, sem usar marcas ou equipes. */
+.app-hero::after { content: ""; position: absolute; width: 48vw; aspect-ratio: 1; right: -22vw; bottom: -27vw; border: 2px solid rgba(190, 255, 208, .27); border-radius: 50%; box-shadow: 0 0 0 54px rgba(190, 255, 208, .05); pointer-events: none; z-index: -1; }
+.app-final { background: linear-gradient(128deg, #125c3e, #082d20 74%); color: #ffffff; }
+.app-final .app-eyebrow { color: #d4f5dc; }
+.app-final h2 { color: #ffffff; text-shadow: 0 2px 12px rgba(0, 0, 0, .15); }
+.app-final h2 em { color: #d5f56b; }
+.app-final::before { content: ""; position: absolute; width: 520px; height: 520px; right: -255px; bottom: -285px; border: 45px solid rgba(213, 245, 107, .58); border-radius: 50%; pointer-events: none; }
+.app-final .store-button { background: rgba(4, 28, 18, .35); border-color: #d4f5dc88; }
+.app-final .store-button:hover { background: #ffffff; color: #103e2d; border-color: #ffffff; }
+@media (max-width: 700px) { .app-hero::after { width: 85vw; right: -43vw; bottom: -40vw; } }
